@@ -1,0 +1,172 @@
+html {
+  font-size: 14px; }
+  html body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    html body h1, html body h2, html body h3 {
+      margin: 0;
+      padding: 0; }
+    html body p {
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      color: #1c1c1c; }
+    html body a {
+      text-decoration: none; }
+    html body ul {
+      margin: 0;
+      padding: 0; }
+
+body h1 {
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+body h2, body h3 {
+  font-family: "Questrial", Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+body p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body .cfr-logo {
+  margin: 15px 10px 20px 0; }
+
+.container {
+  padding: 0 10px;
+  width: 90%;
+  margin: 0 auto; }
+
+header {
+  width: 100%; }
+  header .masthead {
+    background-color: #411c0b; }
+    header .masthead .header-tools {
+      float: right;
+      margin: 15px 0 20px; }
+      header .masthead .header-tools .hamburger {
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+        position: relative;
+        display: inline-block;
+        float: right;
+        margin-left: 20px; }
+        header .masthead .header-tools .hamburger:before {
+          content: '';
+          width: 100%;
+          height: 5px;
+          background-color: #fff;
+          position: absolute;
+          top: 20px;
+          border-radius: 5px; }
+        header .masthead .header-tools .hamburger:after {
+          content: '';
+          width: 100%;
+          height: 5px;
+          background-color: #fff;
+          position: absolute;
+          top: 10px;
+          border-radius: 5px; }
+      header .masthead .header-tools input {
+        margin-top: 3px; }
+  header nav {
+    display: none; }
+
+#hero-image {
+  width: 100%;
+  position: relative; }
+  #hero-image img {
+    width: 100%; }
+  #hero-image .hero-text {
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #fff; }
+
+#content-body article h2 {
+  color: #424242;
+  margin: 15px 0; }
+#content-body article h3 {
+  margin: 15px 0; }
+#content-body article p {
+  margin-bottom: 10px;
+  line-height: 1.3; }
+@media (min-width: 1024px) {
+  #content-body article {
+    margin-top: 20px;
+    float: right;
+    width: 65%; } }
+#content-body .sidebar-first {
+  background: #f8f5ef;
+  padding: 10px; }
+  #content-body .sidebar-first > div {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #666; }
+    #content-body .sidebar-first > div:last-child {
+      border: 0; }
+  #content-body .sidebar-first h2 {
+    margin-bottom: 15px; }
+  #content-body .sidebar-first ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 2; }
+  @media (min-width: 480px) and (max-width: 1023px) {
+    #content-body .sidebar-first {
+      display: inline-block;
+      width: 100%;
+      box-flex: 1; }
+      #content-body .sidebar-first .facts {
+        width: 50%;
+        float: left; }
+      #content-body .sidebar-first .spotlight {
+        width: 50%;
+        float: left; } }
+  @media (min-width: 1024px) {
+    #content-body .sidebar-first {
+      float: left;
+      width: 30%; } }
+@media (min-width: 1024px) {
+  #content-body {
+    display: flex;
+    width: 90%;
+    margin: 0 auto; } }
+
+footer {
+  clear: both;
+  background-color: #411c0b;
+  padding: 10px; }
+  footer .footer-logo {
+    display: inline-block;
+    float: left; }
+  footer .footer-nav {
+    display: inline-block;
+    float: right;
+    margin-top: 10px; }
+    footer .footer-nav ul {
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+      column-count: 2;
+      column-gap: 20px; }
+      footer .footer-nav ul li {
+        list-style-type: none;
+        line-height: 1.5; }
+        footer .footer-nav ul li a {
+          color: #fff; }
+  footer .copyright {
+    border-top: 1px solid #666;
+    padding-top: 10px;
+    width: 100%;
+    clear: both; }
+    footer .copyright p {
+      color: #fff;
+      font-weight: 100;
+      font-size: .8rem; }
+
+/*# sourceMappingURL=style.css.map */
